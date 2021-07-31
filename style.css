@@ -1,13 +1,13 @@
 .hello {
   color: rgb(0, 32, 27);
-  font-family: cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: xx-large;
   font-weight: bolder;
   text-shadow: 40px black;
 }
 
 .name {
-  font-family: cursive;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: xx-large;
   font-weight: bolder;
   color: rgb(241, 10, 10);
