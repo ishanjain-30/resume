@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="st.css" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <h1 style="text-align: center">Payment Form</h1>
+        <div>
+          The fields marked with '<span class="star">*</span>' are compulsory.
+        </div>
+        <h2>Contact Information</h2>
+        <span
+          >Name <span class="star">*</span> :
+          <input
+            type="text"
+            name=""
+            required
+            placeholder="Enter your name" /></span
+        ><br />
+        <br />
+        <fieldset>
+          <legend>
+            Gender
+            <span class="star">*</span>
+          </legend>
+          <span>
+            Male <input type="radio" name="gender" id="M" required /> <br />
+            Female
+            <input type="radio" name="gender" id="F" required />
+          </span>
+        </fieldset>
+        <br /><br />
+        <span>
+          Address
+          <textarea
+            name="address"
+            id="address"
+            cols="0"
+            rows="6"
+            placeholder="Enter your address"
+          ></textarea></span
+        ><br />
+        <br />
+        <span
+          >Email
+          <span class="star">*</span>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="xxx111@gmail.com" /></span
+        ><br /><br />
+        <span
+          >Phone Number
+          <span class="star">*</span>
+          <input
+            type="tel"
+            name="Phone Number"
+            id="number"
+            required
+            placeholder="9009009111" /></span
+        ><br /><br />
+        <br />
+        <h2>Payment Information</h2>
+        <span>
+          Card Type<span class="star">*</span>
+          <select name="card_type" id="cardtype" required>
+            <option value="" style="font-weight: bold">Select Card Type</option>
+            <option value="visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Master">MasterCard</option>
+          </select> </span
+        ><br />
+        <br />
+        <span>
+          Card Number <span class="star">*</span>
+          <input
+            type="number"
+            name="card_number"
+            id="card_number"
+            required
+            placeholder="1111-2222-3333-4444"
+          /> </span
+        ><br />
+        <br />
+        <span>
+          Expiry Date <span class="star">*</span>
+          <input type="date" name="expDate" id="expDate" required /> </span
+        ><br />
+        <br />
+        <span
+          >CVV <span class="star">*</span>
+          <input
+            type="password"
+            name="cvv"
+            id="cvv"
+            required
+            placeholder="123" /></span
+        ><br />
+        <br />
+        <input
+          type="submit"
+          class="a"
+          style="font-weight: bold"
+          value="Pay Now"
+        />
+      </div>
+    </form>
+  </body>
+</html>

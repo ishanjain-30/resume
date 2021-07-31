@@ -1,0 +1,128 @@
+.hello {
+  color: rgb(0, 32, 27);
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-shadow: 40px black;
+}
+
+.name {
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(241, 10, 10);
+  margin-left: 120px;
+}
+
+.b {
+  background-image: url("https://landing.adobe.com/dam/2017/images/374113-edu-resume-template.marquee-background-image.1440x888.jpg");
+  margin: 30px;
+}
+
+.responsive {
+  width: 120px;
+  height: auto;
+  padding: 2px;
+  clip-path: circle(48% at 50%);
+  background-color: lightblue;
+  border: 2px solid black;
+  display: float;
+  float: left;
+  margin: 25px;
+}
+
+h1 {
+  font-family: "Algerian", Helvetica, sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+  width: 100%;
+}
+
+.s {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.q {
+  font-weight: bolder;
+}
+
+.p {
+  font-size: large;
+}
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: left;
+}
+
+span + a,
+span + a + a {
+  padding-left: 415px;
+  text-align: center;
+}
+
+a:hover {
+  color: darkviolet;
+}
+
+.login a:hover p {
+  display: block;
+}
+
+.x,
+.x1 {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 4px;
+}
+
+.x{
+  padding: 8px;
+  margin: 5px 5px;
+}
+
+.x1 {
+  background-color: rgb(255, 230, 0);
+  border: 1px solid black;
+}
+
+.x:hover {
+  color: blueviolet;
+}
+
+.fa {
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 25px;
+  height: 25px;
+  padding: 1px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #fffefe;
+  color: rgb(7, 7, 7);
+}
+
+.container,
+.d2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 30px;
+}
+
+.c2 {
+  padding: 0.5px;
+  margin-left: 7px;
+}
