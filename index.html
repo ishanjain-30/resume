@@ -9,6 +9,11 @@
     <style> 
 
       @media screen and (min-width: 10px) and (max-width: 310px) {
+        
+#m{
+  padding-left: 4px;
+}
+
         h1{
           font-size: x-large;
         }
@@ -68,6 +73,9 @@
         h1{
           font-size: xx-large;
         }
+        #m{
+          padding-left: 4px;
+        }
         .container,
         .d2 {
           display: contents;
@@ -96,11 +104,11 @@
         }
         .fa {
           text-align: center;
-          margin: 2px 2px;
+          margin-left: 4px ;
           font-size: 17px;
           width: 13px;
           height: 15px;
-          padding: 0.5px;
+          padding: 1px;
         }
 
         .hello {
@@ -123,6 +131,10 @@
         .container,
         .d2 {
           display: contents;
+        }
+
+        #m{
+          padding-left: 4px;
         }
 
         .container2 {
@@ -173,45 +185,6 @@
           display: block;
         }
         
-        
-        .b {
-          background-image: url("https://landing.adobe.com/dam/2017/images/374113-edu-resume-template.marquee-background-image.1440x888.jpg");
-          background-repeat: repeat-y;
-          margin: 30px;
-        }
-      }
-
-      @media screen and (max-width: 900px) and (orientation: landscape) {
-        .b {
-          background-image: url("https://landing.adobe.com/dam/2017/images/374113-edu-resume-template.marquee-background-image.1440x888.jpg");
-          background-repeat: repeat-y;
-          margin: 30px;
-        }
-
-        .fa {
-          text-align: center;
-          margin: 2px 2px;
-          font-size: 17px;
-          width: 13px;
-          height: 15px;
-          padding: 0.5px;
-        }
-
-        .hello {
-          color: rgb(0, 32, 27);
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          font-size: x-large;
-          font-weight: bold;
-          text-shadow: 40px black;
-        }
-
-        .name {
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          font-size: x-large;
-          font-weight: bold;
-          color: rgb(241, 10, 10);
-          margin-left: 120px;
-        }
       }
 
       a#project{
@@ -286,7 +259,7 @@
           <i class="fa fa-phone"></i><a href="tel:7726878239">7726878239</a
           ><br />
           <i class="fa fa-envelope"></i
-          ><a href="mailto:ijain3005@gmail.com">ijain3005@gmail.com</a><br />
+          ><a href="mailto:ijain3005@gmail.com"><span id="m">ijain3005@gmail.com</span> </a><br />
           <i class="fa fa-instagram"></i
           ><a href="https://www.instagram.com/ishanjain.30/" target="_blank"
             >ishanjain.30</a
