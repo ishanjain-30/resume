@@ -10,9 +10,9 @@
 
       @media screen and (min-width: 10px) and (max-width: 310px) {
         
-#m{
-  padding-left: 4px;
-}
+        #m{
+          padding-left: 4px;
+        }
 
         h1{
           font-size: x-large;
@@ -66,20 +66,44 @@
           margin-left: 120px;
           text-align: left;
         }
+        
+        .x1 {
+          font-size: small;
+          background-color: rgb(255, 230, 0);
+          border: 0.2px solid black;
+          border-radius: 2px;
+          padding : 2px;
+        }
+
+
       }
 
 
-      @media screen and (min-width: 310px) and (max-width: 390px) {
+      @media screen and (min-width: 310px) and (max-width: 385px) {
         h1{
           font-size: xx-large;
         }
         #m{
           padding-left: 4px;
         }
-        .container,
-        .d2 {
+        .container {
           display: contents;
         }
+
+        .d2 {
+          display: grid;
+          grid-template-columns: 100px 300px;
+        }
+
+        
+        .x1 {
+          font-size: small;
+          background-color: rgb(255, 230, 0);
+          border: 0.2px solid black;
+          border-radius: 2px;
+          padding : 2px;
+        }
+
 
         .responsive{
           width: 80px;
@@ -102,13 +126,14 @@
           background-repeat: repeat-y;
           margin: 30px;
         }
+
         .fa {
           text-align: center;
-          margin-left: 4px ;
-          font-size: 17px;
-          width: 13px;
-          height: 15px;
-          padding: 1px;
+          margin-left: 1px ;
+          font-size: 14px;
+          width: 10px;
+          height: 12px;
+          padding: 0.5px;
         }
 
         .hello {
@@ -116,6 +141,10 @@
           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;          font-size: large;
           font-weight: bold;
           text-shadow: 40px black;
+        }
+
+        .m{
+          font-size: x-small;
         }
 
         .name {
@@ -127,10 +156,14 @@
         }
       }
 
-      @media screen and (min-width: 390px) and (max-width: 550px) {
-        .container,
-        .d2 {
+      @media screen and (min-width: 385px) and (max-width: 550px) {
+        .container{
           display: contents;
+        }
+
+        .d2 {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
         }
 
         #m{
@@ -148,11 +181,15 @@
         }
         .fa {
           text-align: center;
-          margin: 2px 2px;
-          font-size: 17px;
-          width: 13px;
+          margin-left: 1px ;
+          font-size: 14px;
+          width: 11px;
           height: 15px;
-          padding: 0.5px;
+          padding: 0.5px; 
+        }
+
+        .m{
+          font-size: small;
         }
 
         .hello {
@@ -258,10 +295,8 @@
           <span class="hello">Contact:</span><br /><br />
           <i class="fa fa-phone"></i><a href="tel:7726878239">7726878239</a
           ><br />
-          <i class="fa fa-envelope"></i
-          ><a href="mailto:ijain3005@gmail.com"><span id="m">ijain3005@gmail.com</span> </a><br />
-          <i class="fa fa-instagram"></i
-          ><a href="https://www.instagram.com/ishanjain.30/" target="_blank"
+          <i class="fa fa-instagram"></i>
+          <a href="https://www.instagram.com/ishanjain.30/" target="_blank"
             >ishanjain.30</a
           >
           <br />
@@ -270,7 +305,10 @@
               href="https://www.linkedin.com/in/ishan-kumar-jain-090327217/"
               target="_blank"
               ><span class="x">LinkedIn</span></a
-            >
+            ><br>
+            <i class="fa fa-envelope"></i
+              ><a href="mailto:ijain3005@gmail.com"><span id="m">ijain3005@gmail.com</span> </a><br />
+
         </div>
       </div>
     </div>
