@@ -1,41 +1,18 @@
-.hello {
-  color: rgb(0, 32, 27);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: xx-large;
-  font-weight: bolder;
-  text-shadow: 40px black;
-}
-
-.name {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: xx-large;
-  font-weight: bolder;
-  color: rgb(241, 10, 10);
-  margin-left: 120px;
-}
-
-.b {
-  background-image: url("https://landing.adobe.com/dam/2017/images/374113-edu-resume-template.marquee-background-image.1440x888.jpg");
-  margin: 30px;
+body {
+  background-color: rgb(128, 167, 240);
 }
 
 .responsive {
   width: 120px;
   height: auto;
-  padding: 2px;
-  clip-path: circle(48% at 50%);
+  padding: 9px;
+  clip-path: circle(49% at 50%);
   background-color: lightblue;
   border: 2px solid black;
   display: float;
-  float: left;
+  float: inline-start;
   margin: 25px;
-}
-
-h1 {
-  font-family: "Algerian", Helvetica, sans-serif;
-  font-size: xxx-large;
-  text-align: center;
-  width: 100%;
+  align-items: center;
 }
 
 .s {
@@ -47,9 +24,6 @@ h1 {
   font-weight: bolder;
 }
 
-.p {
-  font-size: large;
-}
 img {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -72,13 +46,14 @@ a:hover {
 
 .x,
 .x1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Goudy Old Style;
   border-radius: 3px;
   font-weight: 500;
+  font-size: 120%;
   padding: 4px;
 }
 
-.x{
+.x {
   padding: 8px;
   margin: 5px 5px;
 }
@@ -99,7 +74,7 @@ a:hover {
   font-size: 30px;
   width: 25px;
   height: 25px;
-  padding: 1px;
+  padding: 4px;
 }
 .fa-linkedin {
   background: #007bb5;
@@ -109,25 +84,276 @@ a:hover {
   background: #fffefe;
   color: rgb(7, 7, 7);
 }
-.fa-envelope{
+.fa-envelope {
   color: black;
   size: 2px;
 }
 
-.container,
+.container {
+  background-color: cornflowerblue;
+}
+
 .d2 {
+  background-color: deepskyblue;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.d21 {
+  font-family: cursive;
+  text-align: center;
+  border: 4px solid black;
+}
+
+.d22 {
+  margin-left: 75px;
+  font-family: cursive;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5px;
+  margin-left: 60px;
+  margin-right: 25px;
+}
+
+.other {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
 }
 
-.container2 {
+.lang {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 30px;
 }
 
-.c2 {
-  padding: 0.5px;
-  margin-left: 7px;
+.dsa {
+  margin-left: 160px;
 }
+
+.ad {
+  margin-left: 70px;
+}
+
+.yel {
+  color: rgb(255, 255, 0);
+  font-family: Segoe Print;
+  font-size: 180%;
+  margin-left: 10px;
+}
+
+#im{
+  clip-path: circle(40% at 55%);
+  padding: 7px;
+}
+
+#im2{
+  clip-path: circle(34% at 53%);
+  padding: 15px;
+}
+
+.jee,
+.col,
+.school,
+.vis,
+.res {
+  font-family: Comic Sans MS;
+}
+
+.d1 {
+  background-image: url("Photos/intro.jpg");
+  background-color: rgb(102, 245, 233);
+  background-origin: border-box;
+  background-size: cover;
+  text-align: center;
+  height: 570px;
+  width: auto;
+}
+
+.images,
+.image {
+  width: 200px;
+  height: auto;
+  padding: 4px;
+}
+
+.por {
+  width: 250px;
+  clip-path: circle(35% at 55%);
+  padding: 7px;
+  float: left;
+}
+
+.pore {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.responsibilty {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: dodgerblue;
+}
+
+.response {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+}
+
+.contact {
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Magneto;
+}
+
+.foot {
+  padding: 10px;
+  color: pink;
+}
+
+footer {
+  background-image: url("Photos/bg.jpg");
+  padding: 5px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#eaq {
+  background-image: url("Photos/edu.jpg");
+  background-repeat: no-repeat;
+  margin: 30px;
+}
+
+.skills {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.project{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#img{
+  float: left;
+  margin-left: 90px;
+  clip-path: circle(38% at 50%);
+}
+
+#img2{
+  float: left;
+  margin-right: 30px;
+  margin-left: 150px;
+  margin-top: 0%;
+  clip-path: circle(39% at 45%);
+}
+
+.pro{
+  text-align: center;
+  background-image: url("Photos/project2.jpg");
+  margin-left: 130px;
+  margin-right: 130px;
+  height: 350px;
+  width: auto;
+}
+
+
+#project{
+  animation: bouncing 0.5s ease 0s infinite alternate both;
+
+  position: relative;
+  vertical-align: top;
+}
+
+.images{
+  animation: bouncing 0.3s ease 0s infinite alternate both;
+  position: relative;
+  vertical-align: top;
+}
+
+@keyframes bouncing {
+  0%{
+    bottom: 0;
+  }
+  100%{
+    bottom: 5px;
+  }
+}
+
+#project{
+  animation: bouncing 0.5s ease 0s infinite alternate both;
+
+  position: relative;
+  vertical-align: top;
+}
+
+.images{
+  animation: bouncing 0.3s ease 0s infinite alternate both;
+  position: relative;
+  vertical-align: top;
+}
+
+
+.aboutme {
+  color: chocolate;
+  animation: mymove 1s ease-in 0s 1 both;
+  font-weight: bolder;
+}
+
+
+.about {
+  font-size: 140%;
+  font-family: Goudy Old Style;
+  font-style: oblique;
+  font-weight: bolder;
+  padding: 9px;
+  margin-right: 280px;
+  margin-left: 280px;
+  margin-bottom: 100px;
+  color: rgb(140, 245, 3);
+  text-align: center;
+  font-variant: small-caps;
+  animation: move 1.5s ease-in 0s 1 both;
+}
+
+
+@keyframes bouncing {
+  0%{
+    bottom: 10px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+
+
+  @keyframes mymove {
+    0%   {margin-right: 600px;}
+    100% {text-align: center;}
+  }
+
+@keyframes move {
+  0%{
+    visibility: hidden;
+    margin-right: 1900px;
+  }
+  50%{
+    visibility: collapse;
+    margin-right: 700px;
+  }
+  100%{
+    text-align: center;
+  }
+}
+
