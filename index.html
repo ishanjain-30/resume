@@ -1,382 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Resume| Ishan Kumar Jain</title>
-    <style> 
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-      @media screen and (min-width: 10px) and (max-width: 315px) {
-        
-        #m{
-          padding-left: 4px;
-        }
-
-        h1{
-          font-size: x-large;
-        }
-        
-        .container,
-        .d2 {
-          display: contents;
-        }
-
-        .responsive{
-          width: 50px;
-          height: auto;
-          padding: 2px;
-          clip-path: circle(48% at 50%);
-          background-color: lightblue;
-          border: 2px solid black;
-          display: block;
-          margin-left: 25px;
-          margin-right: 20px;
-        }
-
-        .container2 {
-          display: contents;
-        }
-
-        .fa {
-          text-align: center;
-          margin: 2px 2px;
-          font-size: 17px;
-          width: 13px;
-          height: 15px;
-          padding: 0.5px;
-        }
-
-        .hello {
-          color: rgb(0, 32, 27);
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;          font-size: large;
-          font-weight: bold;
-          text-shadow: 40px black;
-        }
-
-        .name {
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;          font-size: small;
-          font-weight: bold;
-          color: rgb(241, 10, 10);
-          margin-left: 120px;
-          text-align: left;
-        }
-        
-        .x1 {
-          font-size: small;
-          background-color: rgb(255, 230, 0);
-          border: 0.2px solid black;
-          border-radius: 2px;
-          padding : 2px;
-        }
-
-
-      }
-
-      @media screen and (min-width: 315px) and (max-width: 385px) {
-        h1{
-          font-size: xx-large;
-        }
-        #m{
-          padding-left: 4px;
-        }
-        .container {
-          display: contents;
-        }
-
-        .d2 {
-          display: grid;
-          grid-template-columns: 100px 200px;
-        }
-
-        
-        .x1 {
-          font-size: small;
-          background-color: rgb(255, 230, 0);
-          border: 0.2px solid black;
-          border-radius: 2px;
-          padding : 2px;
-        }
-
-
-        .responsive{
-          width: 80px;
-          height: auto;
-          padding: 2px;
-          clip-path: circle(48% at 50%);
-          background-color: lightblue;
-          border: 2px solid black;
-          display: block;
-          margin-left: 25px;
-          margin-right: 20px;
-        }
-
-        .container2 {
-          display: contents;
-        }
-
-        .fa {
-          text-align: center;
-          margin-left: 1px ;
-          font-size: 14px;
-          width: 10px;
-          height: 12px;
-          padding: 0.5px;
-        }
-
-        .hello {
-          color: rgb(0, 32, 27);
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;          font-size: large;
-          font-weight: bold;
-          text-shadow: 40px black;
-        }
-
-        .m{
-          font-size: x-small;
-        }
-
-        .name {
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
-          font-weight: bold;
-          font-size: small;
-          color: rgb(241, 10, 10);
-          font-size: 105%;
-        }
-      }
-
-      @media screen and (min-width: 385px) and (max-width: 550px) {
-        .container{
-          display: contents;
-        }
-
-        .d2 {
-          display: grid;
-          grid-template-columns: 1fr 2fr;
-        }
-
-        #m{
-          padding-left: 4px;
-        }
-
-        .container2 {
-          display: contents;
-        }
-
-        
-        .fa {
-          text-align: center;
-          margin-left: 1px ;
-          font-size: 14px;
-          width: 11px;
-          height: 15px;
-          padding: 0.5px; 
-        }
-
-        .m{
-          font-size: small;
-        }
-
-        .hello {
-          color: rgb(0, 32, 27);
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          font-size: x-large;
-          font-weight: bold;
-          text-shadow: 40px black;
-        }
-
-        .name {
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          font-size: x-large;
-          font-weight: bold;
-          color: rgb(241, 10, 10);
-          margin-left: 120px;
-        }
-      }
-
-
-      @media screen and (min-width: 550px) and (max-width: 950px) {
-        .container,
-        .d2 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-column-gap: 30px;
-        }
-
-        .container2 {
-          display: block;
-        }
-        
-      }
-
-    </style>
+    <!-- Bootstrap CSS -->
     <link
-      rel="icon"
-      href="https://github.com/ishanjain-30/Resume-Webpage/blob/main/Photos/resume.jpeg?raw=true"
-      type="image/x-icon"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://fonts.googleapis.com/css?family=Sofia|Lobster Two|Oleo Script|Patrick Hand|Georama"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="x.css" />
+
+    <title>Resume| Ishan Jain</title>
   </head>
   <body>
-      <div class="d1"> 
-        <img
-          src="Photos/profile.jpeg"
-          alt=""
-          class="responsive"
-          width="120px"
-        />
-        <h1 class="aboutme"><b>Ishan Kumar Jain</b></h1>
-        <div class="about">
-          "An enthusiastic and energetic student who is quite interested in
-          coding and learning new technologies. I will love to explore more in
-          technical domain.I will keep working hard on myself and find
-          opportunities to learn new things with a positive attitude."
-        </div>
-        <br /><br>
+   <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_top">
+      <a class="navbar-brand" href="#">Resume</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#intro"
+            
+              >About Me <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project" tabindex="-1" aria-disabled="true"
+              >Project</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#edu" tabindex="-1" aria-disabled="true"
+              >Education</a
+            >
+          </li>
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form> -->
       </div>
-      <br /><br><br>
-      <div class="d2">
-        <div class="d21">
-          <h1>Profile:</h1>
-            <a href="https://github.com/ishanjain-30" target="_blank">
-              <div class="x">Github </div></a
-            >
-            <a href="https://codeforces.com/profile/ishanjain30" target="_blank"
-              ><div class="x">Codeforces</div></a
-              >
-            <a href="https://www.codechef.com/users/ishanjain30" target="_blank"
-              ><div class="x">Codechef</div></a
-            >
-            <a href="https://leetcode.com/ijain30/" target="_blank"
-              ><div class="x">Leetcode</div></a
-            >
-          </ul>
-        </div>
-       
-      </div>
-    <hr />
-    <div class="skills">
-    <h1 style="text-align: center;">Skills</h1> 
-    <div id="skill" class="skill">
-      <div class="lang">
-        <div class="html">
-          <img src="Photos/html.png" alt="" class="images">
-         <h2 class="yel"> HTML</h2>
-        </div>
-        <div class="css">
-          <img src="Photos/css.png" alt="" class="images">
-          <h2 class="yel">CSS</h2>
-        </div>
-        <div class="cpp">
-          <img src="Photos/cpp.jpeg" alt="" class="images">
-          <h2 class="yel">C/C++</h2>
-        </div>
-       </div>
-      <br>  
-       <div class="other">
-        <div class="dsa"> 
-          <img src="Photos/dslogo.jpeg" alt="" class="images">
-           <h2 class="yel"> Data Structures & Algorithms</h2>
+    </nav>
+</header>
+    <div class="intro" id="intro">
+      <h1 class="font-weight-bolder text-primary" style="text-align: center">About Me</h1>
+      <br />
+      <img
+        src="Photos/profile.jpeg"
+        width="170px"
+        style="clip-path: circle(40% at 50%)"
+        class="img-fluid float-sm-left"
+        alt="..."
+      />
+      <h2 class="font-weight-bolder name" >
+        Hello, I am Ishan Kumar Jain!
+      </h2>
+      <p class="text-center lead" id="para">
+        "An enthusiastic and energetic student who is quite interested in coding
+        and learning new technologies. I will love to explore more in technical
+        domain. I will keep working hard on myself and find opportunities to
+        learn new things with a positive attitude."
+      </p>
+      <br /><br />
+     <div class="container">
+       <div class="row">
+         <div class="col vision ml-5">
+          <img src="Photos/vision.jpeg" class="circle img-fluid" width="150px
+          " alt="..."><br><br>
+           <span class="font-weight-bold" style="font-size: large;font-family: Patrick Hand;font-size: 150%;">
+            Technical Executive
+          </span><br>
+          <span class="font-weight-bolder ml-2 p-2" style="font-size: larger;font-family: Patrick Hand;font-size: 150%;">
+            VISION MANIT
+          </span>
+         
          </div>
-         <div class="ad" > 
-           <img src="Photos/android.png" alt="" class="images"><h2 class="yel"> Android Development(Basic)</h2>
-          </div>
-       </div>
-          <br>
-    </div>
-    </div>
-    <hr />
-    <div class="pro">
-    <h1 style="text-align: center;">Project</h1>
-    <br><br>
-      <div class="project">
-        
-        <div class="p2">
-          <a
-          href="https://github.com/ishanjain-30/Meme-Sharing-App"
-          target="_blank" id="project"
-          ><span class="x1">Meme Sharing App using Kotlin </span></a
-        ><img src="Photos/meme.png" alt="" id="img" class="images" ><br>
-        </div>  
-        <div class="p1"><a href="Project\Payment_form.html" target="_blank" id="project"
-          ><span class="x1">Payment Form Webpage using HTML & CSS </span></a
-        ><img src="Photos/rupee.jpg" alt="" id="img2" class="images" >
-        <br />
-     </div> 
-      </div>
-    </div>
-        <hr /><br>
-        <div class="responsibilty">
-          <img src="Photos/res.jpg" alt="" class="por">
-          <span class="pore"> Positions of Responsibility </span>
-          <br>
-          <div class="response">
-           
-           <div class="p">
-             <img src="Photos/vision.jpeg" alt="" id="im" class="images"><br><b> VISION MANIT</b><br />
-            <div class="vis">Technical Executive in VISION, MANIT Bhopal</div> 
-             <br><br> </div>
-             <div class="p">
-               <br><br>
-              <img src="Photos/covid.png" alt="" id="im2" class="images"><br>
-               <b> MANIT COVID Helpdesk</b><br />
-            <div class="res"> Member of Resource Collection Team</div>
-             <br>
+         <div class="col mr-5" >
+          <h1 class="text-primary" style="text-align: center">Contact Me:</h2>
+            <div class="contact">
+              <i class="fa fa-phone"></i
+              ><a href="tel:7726878239"><span class="foot">7726878239</span></a>
+              <br><br>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="window.location.href = 'https://www.linkedin.com/in/ishan-kumar-jain-090327217/';"
+                    ><a href="#" class="fa fa-linkedin"> </a></button>
+              <a class="foot"
+                href="https://www.linkedin.com/in/ishan-kumar-jain-090327217/"
+                target="_blank"
+                ><span>LinkedIn</span></a
+              ><br><br>
+              <i class="fa fa-envelope"></i
+              ><a href="mailto:ijain3005@gmail.com"
+                ><span class="foot">ijain3005@gmail.com</span>
+              </a>
             </div>
-       <br>     
-     </div>     
+         </div>
+       </div>
+     </div>
+      <br />
+    </div>
+    <br>
+    <div class="container skill">
+    <h1 class="font-weight-bolder text-primary" id="skills">Skills</h1>
+    <br>
+    
+      <div class="row">
+        <div class="col" style="text-align: center;">
+         <span class="font-weight-bold skill">
+          <div >
+            <img src="Photos/html.png" class="rounded img-fluid" width="120px
+            " alt="...">
+          </div><br>
+           HTML
+         </span>
         </div>
-        <br>     
-        <hr>
-        <br>
-
-      <div id="eaq">
-      <h1 style="text-align: center;">Education & Qualification</h1>
-      <div class="c2">
-          <div class="col">
-            <img src="Photos/manit.png" alt="" class="images"><br>
-            <b class="p" style="margin-left: 60px;"> College </b><br>
-           <b style="margin-left: 35px;"> MANIT BHOPAL</b><br />
-            Computer Science & Engineering <br />
-           <span style="margin-left: 24px;"> 1st Year CGPA - </span><b>8.61</b>
-            <br /><br />
-          </div>
-          
-          <div class="jee">
-            <img src="Photos/jee.jpg" alt="" class="images" height="230px"><br>
-            <b>JEE Main : </b> AIR - 6642 <br />
-            <b>JEE Advance :</b> AIR - 7126
-            <br /><br />
-          </div>
-
-          <div class="school" style="margin-left: 70px;">
-            <img src="Photos/cbse.png" alt="" class="images" height="230px"><br>
-            <b class="p">Class 12 </b><br />
-            New Look Central School <br />
-            Result - <b>92.2%</b>
-          <br />
-            <b class="p">Class 10 </b><br />
-            AVS Public Sr. Sec. School <br />
-            CGPA - <b>10</b>
-          </div>
-        <br /><br />
+        <div class="col" style="text-align: center;">
+          <span class="font-weight-bold skill">
+            <div >
+              <img src="Photos/css.png" class="rounded img-fluid" width="120px
+              " alt="...">
+            </div><br>
+            CSS
+          </span>
+        </div>
+        <div class="col" style="text-align: center;">
+          <span class="font-weight-bold skill">
+            <div >
+              <img src="Photos/cpp.jpeg" class="rounded img-fluid" width="120px
+              " alt="...">
+            </div><br>
+           C/C++
+          </span>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col" style="text-align: center;">
+          <span class="font-weight-bold skill">
+            <div >
+              <img src="Photos/DS.jpg" class="rounded img-fluid" width="150px
+              " alt="...">
+            </div><br>
+            Data Structures & Algorithms
+          </span>
+        </div>
+        <div class="col" style="text-align: center;">
+          <span class="font-weight-bold skill">
+            <div >
+              <img src="Photos/android.png" class="rounded img-fluid" width="150px
+              " alt="...">
+            </div><br>
+            Android Development(Basic)
+          </span>
+        </div>
       </div>
     </div>
-    <hr />
-    <footer>
-        <div class="contact"><h2>Contact Me:</h2></div>
-        <i class="fa fa-phone"></i><a href="tel:7726878239"><span class="foot">7726878239</span></a
-        >
-          <a href="#" class="fa fa-linkedin"> </a>
-          <a
-            href="https://www.linkedin.com/in/ishan-kumar-jain-090327217/"
-            target="_blank"
-            ><span class="foot">LinkedIn</span></a
-          >
-          <i class="fa fa-envelope"></i
-            ><a href="mailto:ijain3005@gmail.com"><span class="foot">ijain3005@gmail.com</span> </a><br />
-    </footer>
+    <br>
+    <div class="container bg-img">
+      <div class="row">
+        <div class="col alert alert-dark">
+          <h1 class="font-weight-bolder text-primary" id="project" >Project</h1>
+        <ul class="list-group text">
+          <li class="list-group-item"><span class="font-weight-bold">
+            <a href="https://github.com/ishanjain-30/Meme-Sharing-App" class="link" target="blank"><b>Meme Sharing App</b></a>
+          </span></li>
+          <li class="list-group-item"><span class="font-weight-bold">
+            <a href="Project/Payment_form.html" class="link" target="blank"><b>Payment Form Webpage</b></a>
+          </span></li>
+        </ul> <br><br><br>
+      </div>
+      <div class="col ml-4 alert alert-dark">
+        <br>
+        <img src="Photos/problem.jpg" class="float-right rounded img-fluid" width="190px
+            " alt="..."><span class="font">Solved multiple problems on sites like Leetcode, GFG, Hackerrank etc.</span><br>
+            <button type="button" class="btn btn-outline-dark" onclick="window.location.href = 'https://leetcode.com/ijain30/';"
+              > <img src="Photos/leetcode.png" class="float-right rounded img-fluid" width="30px
+              " alt="..."></button>
+              <button type="button" class="btn btn-outline-dark" onclick="window.location.href = 'https://codeforces.com/profile/ishanjain30';"
+              > <img src="Photos/codef.png" class="float-right rounded img-fluid" width="30px
+              " alt="..."></button>
+              <button type="button" class="btn btn-outline-dark" onclick="window.location.href = 'https://www.codechef.com/users/ishanjain30';"
+              > <img src="Photos/codec.jpeg" class="float-right rounded img-fluid" width="30px
+              " alt="..."></button>
+              <br><br>
+              <span class="font-weight-bold text text-center">Github Profile</span>
+              <button type="button" class="btn btn-outline-dark text-center" onclick="window.location.href = 'https://github.com/ishanjain-30';"
+              > <a href="#" class="fa fa-github"> </a></button>
+      </div>
+    </div>
+    <br>
+    </div>
+    <div class="container ed alert alert-dark">
+      <h1 class="font-weight-bolder text-primary" id="edu" >Education & Qualification</h1>
+      <div class="row">
+        <div class="col card">
+          <img src="Photos/manit.png" class="circlevis img-fluid ml-5" width="150px
+          " alt="..."><br>
+          <span class="font-weight-bolder" style="font-size: larger;">
+            MANIT BHOPAL(2020-24)
+          </span>
+          <span class="font-weight-bold" style="font-size: larger;">
+            Computer Science & Engineering
+          </span><span>1st Year CGPA: <b>8.61</b></span>
+          <span style="font-size: medium;">
+          </span>
+        </div>
+        <div class="col card">
+          <img src="Photos/jee.jpg" class="circlevis img-fluid ml-5" width="230px
+          " alt="..."><br>
+          <span class="font-weight-bold ml-3" style="font-size: larger;">
+           JEE Main:AIR-6642
+          </span>
+          <span class="font-weight-bold ml-3" style="font-size: larger;">
+            JEE Advance:AIR-7126
+          </span>
+        </div>
+        <div class="col card ed">
+          <img src="Photos/cbse.png" class="circlevis img-fluid ml-5 mt-3" width="150px
+          " alt="...">
+          <span class="font-weight-bold ml-5" style="font-size: larger;">
+            New Look Central School
+          </span>
+          <span class="ml-5 ed" style="font-size: large;">
+            Class 12  - <b class="ed">92.2%</b>
+          </span>
+           <span class="font-weight-bold ml-5" style="font-size: larger;">
+            AVS Public School
+          </span>
+          <span class="ml-5 ed" style="font-size: large;">
+            Class 10  - <b class="ed">10CGPA</b>
+          </span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <script
+      src="Photos/https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="Photos/https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
 </html>

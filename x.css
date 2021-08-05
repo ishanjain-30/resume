@@ -1,0 +1,132 @@
+ .intro {
+  height: 600px;
+  width: 100%;
+  background-image: url("Photos/intro.png");
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-family: "Lobster Two";
+  text-decoration: solid;
+  text-align: center;
+}
+
+#para {
+  color: rgb(59, 245, 13);
+  font-size: larger;
+  font-weight: 500;
+  font-family: "Sofia", sans-serif;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 10px;
+
+}
+
+.contact {
+  text-align: center;
+}
+
+.foot {
+  padding: 4px;
+  color: aqua;
+  margin-left: 3px;
+}
+
+.foot:hover {
+  color: rgb(4, 102, 102);
+}
+
+.skill {
+  background-image: url("Photos/skills.jpg");
+  color: chocolate;
+  font-family: "Oleo Script";
+  font-size: 130%;
+}
+
+.font,.ed{
+  font-family: "Oleo Script" ;
+  font-size: 130%;
+}
+
+body{
+  background-image: url("Photos/bg.jpg");
+  backdrop-filter: blur(1px);
+}
+
+.text{
+  font-family: "Patrick Hand";
+  font-size: 130%;
+}
+
+.name{
+  text-align: center;
+  font-family: "Georama";
+  color: aqua;
+}
+
+.vision{
+  color: aqua;
+}
+
+.circle,.circlevis{
+  clip-path: circle(50% at 50%);
+}
+
+.link{
+  animation: bouncing 0.5s ease-in 0s infinite alternate both;
+  position: relative;
+  vertical-align: top;
+}
+
+
+@keyframes bouncing {
+  0%{
+    bottom: 5px;
+  }
+  100%{
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width:770px){
+  .name{
+    font-size: large;
+  }
+  #para{
+    font-size: large;
+    font-weight: 300;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 5px;
+  }
+  .circlevis{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width:575px){
+  .intro{
+    height: 800px;
+  }
+  .name{
+    font-size: medium;
+  }
+ 
+  #para{
+    font-size: small;
+    margin-top: 5px;
+  }
+
+  .ed{
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width:401px) {
+  .intro{
+    height: 1000px;
+  }
+  .ed{
+    font-size: 50%;
+  }
+}
